@@ -1,0 +1,73 @@
+﻿
+/*style sheet*/
+.navbar {
+  width: 100%;
+  background: #8698ff;
+  background: linear-gradient(top,  #8698ff,  #637afe);
+  background: -o-linear-gradient(top,  #8698ff,  #637afe);
+  background: -moz-linear-gradient(top,  #8698ff,  #637afe);
+  background: -webkit-linear-gradient(top,  #8698ff,  #637afe); /*8597fe*/
+  font-weight: bold;
+  letter-spacing: 0.025em;
+  box-shadow: 1px 1px 10px 2px #888888;
+  z-index:2;
+  margin:0;
+}
+.navbar ul {
+  text-align: center;
+  margin: 0;
+}
+.navbar ul li {
+  display: inline-block;
+  padding: 0 3em;
+  line-height: 3em;
+}
+.navbar ul li:hover {
+  background: rgba(99, 122, 254, 0.4);
+  text-decoration:none;
+}
+.navbar a, a:visited{
+    text-decoration:none;
+}
+.Menu_links a{
+    color:white;
+}
+/*----------------------------------------------------------------------------------*/
+body{
+    font-family:"Times New Roman", Times, serif;
+}
+.leftpanel{
+    height:100%;
+    width:16%;
+    box-shadow: 1px 3px #888888;
+    top:0;
+    left:0;
+    position:fixed;
+}
+.mylinks{
+    border-collapse: separate;
+    border-spacing: 10px;
+    width:100%;
+    height:auto;
+}
+td{
+    max-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.mylinks a{
+    text-decoration:none;
+}
+/*----------------------------------------------------------------------------------*/
+.main{
+    position:relative;
+    height:100%;
+    width:100%;
+    padding-left:20%;
+    padding-right:10%;
+}
+.main p{
+    text-indent: 30px;
+    font-size:17px;
+}
